@@ -1,0 +1,7 @@
+h1 {
+    color: red;
+    font-size: 30px;
+}
+/* internal: sử dụng thẻ style ở phần heading 
+   external: sử dụng thẻ style ở file style.css
+   inline: sử dụng thuộc tính style ở thẻ bất kì  */
