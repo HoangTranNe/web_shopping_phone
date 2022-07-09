@@ -1,6 +1,24 @@
-h1 {
+/* h1 {
     color: red;
     font-size: 30px;
+} */
+/* html
+{
+    background-color: paleturquoise;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+} */
+/* body
+{
+    color:blueviolet;
+    font-size: larger;
+} */
+*
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    background-color: aliceblue;
 }
 /* internal: sử dụng thẻ style ở phần heading 
    external: sử dụng thẻ style ở file style.css
