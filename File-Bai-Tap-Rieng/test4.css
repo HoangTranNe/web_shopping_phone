@@ -1,0 +1,25 @@
+*
+{
+    background-color: #ffd4d4;
+}
+#box{
+display:block;
+width:100px;
+height:100px;
+background-color:white;
+padding: 10px 10px 10px 10px;
+}
+img{
+    width:100px;
+    height:70px;
+    display:block;
+    background-color: white;
+}
+#product
+{
+    display:block;
+    width:100px;
+    height:100px;
+    background-color:white;
+    padding: 10px 10px 10px 10px;
+}
