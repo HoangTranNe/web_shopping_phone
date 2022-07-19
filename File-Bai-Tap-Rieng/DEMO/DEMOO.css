@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background-banner
+{
+    background-color: black;
+    height: 65px;
+}
+.logo
+{
+    background-color: white;
+    height: 45px;
+    width: 100px;
+    margin: 10px;
+    position: absolute;
+}
+.list{
+    margin:0 500px 0 500px;
+}
+.menu{
+    background-color: gray;
+    height: 25px;
+    width: 60px;
+    margin: 20px;
+    position:relative;
+    float: left;
+}
+
+.background-title
+{
+    background-color: red;
+    height: 80px;
+}
+.logo2{
+    background-color: white;
+    height: 35px;
+    width: 200px;
+    margin: 20px;
+    position: absolute; 
+}
+.product
+{
+    background-color: pink;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.background-product
+{
+    background-color: white;
+    height: 180px;
+    width: 160px;
+    margin: 10px 110px 10px 37px;
+    position: relative;
+    float: left;
+
+}
