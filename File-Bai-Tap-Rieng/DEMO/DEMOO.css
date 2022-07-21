@@ -42,7 +42,7 @@
 .product
 {
     background-color: pink;
-    height: 200px;
+    height: 220px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -50,9 +50,32 @@
 {
     background-color: white;
     height: 180px;
-    width: 160px;
-    margin: 10px 110px 10px 37px;
+    width: 190px;
+    margin: 19px 87px 10px 51px;
     position: relative;
     float: left;
-
+}
+.image{
+    background-color: gray;
+    height: 130px;
+    width: 160px;
+    margin:5px 0px 0px 15px;
+    position:absolute;
+    float:left;
+}
+.product-name{
+    background-color: black;
+    height: 15px;
+    width: 140px;
+    margin: 140px 0 0 15px;
+    position: absolute;
+    float:left;
+}
+.price{
+    background-color: red;
+    height: 15px;
+    width: 110px;
+    margin: 156px 0 0 15px;
+    position: absolute;
+    float:left;
 }
