@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    background-color:black;
+    height: 200px;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    margin: 22px;
+    float: left;
+}
+li{
+    color:white;
+    height: 20px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:150px;
+    margin-left: 80px;
+    list-style: none;
+    float: left;
+}
+a{
+    color: white;
+}
+.search{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    float: left;
+    position: relative;
+    left: 400px;
+    bottom:120px;
+}
+input{
+    width:900px;
+    height: 50px;
+    border-radius:50px;
+}
+button{
+    height: 40px;
+    width: 200px;
+    float: left;
+    position: absolute;
+    left: 1350px;
+    top:56px;
+    border-radius:50px;
+}
+.user{
+    color:white;
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: absolute;
+    left: 1600px;
+    top:65px;
+}
+.cart{
+    color:white;
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: absolute;
+    left: 1650px;
+    top:65px;
+}
+.list1{
+    background-color: red;
+    height: 200px;
+    float:left;
+    position: relative;
+    left: 0px;
+}
