@@ -67,10 +67,45 @@ button{
     left: 1650px;
     top:65px;
 }
-.list1{
+.title{
+    
+}
+.tittle1{
+    height: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: red;
-    height: 200px;
-    float:left;
+}
+.background1{
+    background-color:pink;
+    height: 400px;
+}
+.product{
+    height: 350px;
+    width: 350px;
+    background-color: white;
     position: relative;
-    left: 0px;
+    top:20px;
+    left:50px;
+}
+.image1{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    left:25px;
+    top:5px;
+}
+.name1{
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    left:25px;
+    top:210px;
+}
+.price1{
+    color:red;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    left:25px;
+    top:280px;
 }
