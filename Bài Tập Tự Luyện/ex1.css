@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    background-color: black;
+    height: 200px;
+}
+.img1{
+    height:150px;
+    width: 150px;
+    margin: 0 90px 0 90px;  
+}
+.search1{
+    height: 40px;
+    width: 500px;
+    float: left;
+    border-radius: 10px;
+    margin: -100px 100px 0 500px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: gray;
+    margin-left:300px;
+    margin-right: -180px;
+    margin-top:-10px;
+    float:left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.user1{
+    color: gray;
+    margin: -91px 0px 0 -80px;
+    float: left;
+}
