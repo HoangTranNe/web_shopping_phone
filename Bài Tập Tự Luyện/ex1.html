@@ -4,33 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New_IT_Blog</title>
+    <title>FoodBoiz</title>
     <link rel="stylesheet" href="ex1.css">
+    <script src="ex1.js"></script>
     <script src="https://kit.fontawesome.com/0ab0c4b239.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="background">
-        <div class="logo">
-            <img class="img1" src="New_IT_Blog.png" alt="New_IT_Blog">
-        </div>
-        <div class="search">
-            <input type="search" class="search1" name="search" placeholder="Search">
-        </div>
-        <div class="menu">
+    <div class="head">
+        <div class="tab1">
             <ul>
-                <li><button><a href="">Trang Chủ</a></button></li>
-                <li><button><a href="">Tin Tức</a></button></li>
-                <li><button><a href="">Blog</a></button></li>
-                <li><button><a href="">DIY</a></button></li>
-                <li><button><a href="">Fighting!!!</a></button></li>
+                <li><a href="">Khám Phá</a></li>
+                <li><a href="">Đặt Giao Hàng</a></li>
+                <li><a href="">Đi Chợ</a></li>
+                <li><a href="">Now POS</a></li>
+                <li><a href="">Giảm Giá</a></li>
             </ul>
         </div>
-        <div class="use1r">
-            <a href=""><i class="fa-solid fa-user"></i></a>
+            
+        <div class="tab2">
+            <div class="logo">
+                <img class="logo1" src="Food Boiz.png" alt="FoodBoiz">
+            </div>
         </div>
-        <div class="user2">
-            <a href=""><i class="fa-solid fa-user-music"></i></a>
+        <div class="location">
+            <select name="location" id="location">
+                <option value="">Hà Nội</option>
+                <option value="">Hồ Chí Minh</option>
+                <option value="">Đà Nẵng</option>
+                <option value="">Hải Phòng</option>
+                <option value="">Cần Thơ</option>
+                <option value="">Vũng Tàu</option>
+            </select>
+        </div>
+        <div class="category">
+            <select name="category" id="category">
+                <option value="">Ăn Uống</option>
+                <option value="">Du Lịch</option>
+                <option value="">Cưới Hỏi</option>
+                <option value="">Đẹp Khỏe</option>
+                <option value="">Giải Trí</option>
+                <option value="">Mua Sắm</option>
+                <option value="">Giáo Dục</option>
+                <option value="">Dịch Vụ</option>
+            </select>
+        </div>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Địa Điểm, Món Ăn, Loại Hình...">
+            <button type="submit" name="submit" id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="list">
+            <button  onclick="hamDropdown()"class="nut_dropdown"><i class="fa-solid fa-bars"></i></button>
+            <div class="noidung_dropdown">
+                <a href="#">Ở Đâu</a>
+                <a href="#">Giao Hàng</a>
+                <a href="#">Ăn Gì </a>
+                <a href="#">Sưu Tập</a>
+                <a href="#">Blogs</a>
+                <a href="#">Miễn Phí</a>
+            </div>
+        </div>
+        <div class="login">
+            <button type="submit" name="submit" id="submit"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+        </div>
+        <div class="nofication">
+            <button type="submit"><i class="fa-solid fa-bell"></i></button>
         </div>
     </div>
+<div class="banner">
+    <div class="image">
+        <img src="pngtree-vegetable-food-banner-png-image_6302508.jpg" alt="">
+    </div>
+</div>
 </body>
 </html>
