@@ -5,6 +5,7 @@
 body{
     background-color: greenyellow;
 }
+/* Phần nav-bar */
 .tab1{
     height: 50px;
     background-color: black;
@@ -80,6 +81,7 @@ input[type="text"]:focus{
 button i{
     color: white;
 }
+/* Phần nhận thông báo và đăng nhập */
 .user{
     left: 90%;
     position: absolute;
@@ -91,6 +93,7 @@ button i{
     border: none;
     margin: 35px 5px;
 }
+/* Phần hình ảnh hoặc slideshow */
 .image img{
     margin: 10px 35%;
     height: 310px;
@@ -136,4 +139,4 @@ button i{
     position: relative;
     top:-75px;
     left: 600px;
-} */
+*/
