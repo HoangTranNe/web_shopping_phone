@@ -7,84 +7,123 @@ body{
 }
 .tab1{
     height: 50px;
-    width: 100%;
     background-color: black;
 }
-li{
-    margin:20px 30px 0 30px;
+.tab1 li{
+    list-style-type: none;
     float: left;
-    list-style: none;
+    margin: 15px 145px 15px 145px;
 }
-a{
-    text-decoration: none;
+.tab1 li a{
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .tab2{
     height: 100px;
-    width: 100%;
     background-color: white;
+}
+.logo{
+    position: absolute;
+    right:91%;
 }
 .logo img{
     height: 100px;
-    float: left;
-    margin-left: 30px;
 }
-.location select{
+.search{
+    position: absolute;
+    margin: 35px 11% 35px 11%;
+}
+.location,.category{
+    margin: 0 10px;
+}
+input[type="text"]{
     height: 30px;
-    float: left;
-    margin: -70px 50px 0px 150px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    padding-left: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    font-size: 16px;
 }
-.category select{
+input[type="text"]:focus{
+    border-color: greenyellow;
+}
+.location,.category{
     height: 30px;
-    float: left;
-    margin: -70px 50px 0px 250px;
+    width: 160px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dadada;
+    font-size: 16px;
 }
-.search input{
+.location:focus, .category:focus{
+    border-color: greenyellow;
+}
+.logo,.search,.login,.nofication{
+    float: left;
+}
+.search #submit{
+    background-color: #5499C7;
+    border: none;
+    width: 30px;
     height: 30px;
-    width: 200px;
-    float: left;
-    margin: -70px 50px 0px 350px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
 }
-.search button{
-    height: 33px;
-    width: 35px;
-    float: left;
-    margin: -70px 50px 0px 560px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.search #submit:hover{
+    background-color: #5499c781;
+    cursor: pointer;
 }
+button i{
+    color: white;
+}
+.user{
+    left: 90%;
+    position: absolute;
+}
+.login #submit,.nofication #submit{
+    width: 30px;
+    height: 30px;
+    background-color: #5499C7;
+    border: none;
+    margin: 35px 5px;
+}
+.image img{
+    margin: 10px 35%;
+    height: 310px;
+}
+
 /* Nút Dropdown*/
-.nut_dropdown {
+/* .nut_dropdown {
     background-color: #0080ff;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
+  } */
   
   /* Thiết lập vị trí cho thẻ div với class dropdown*/
-  .list {
+  /* .list {
     position: relative;
     display: inline-block;
-  }
+  } */
   
   /* Nội dung Dropdown */
-  .noidung_dropdown {
-    /*Ẩn nội dụng các đường dẫn*/
-    display: none;
+  /* .noidung_dropdown { */
+    /* Ẩn nội dụng các đường dẫn */
+    /* display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+  } */
   
   /* Thiết kế style cho các đường dẫn tronng Dropdown */
-  .noidung_dropdown a {
+  /* .noidung_dropdown a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -97,18 +136,4 @@ a{
     position: relative;
     top:-75px;
     left: 600px;
-}
-.login button{
-    height: 40px;
-    width: 40px;
-    position: relative;
-    top: -120px;
-    left: 680px;
-}
-.nofication button{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top:80px;
-    left: 740px;
-}
+} */
